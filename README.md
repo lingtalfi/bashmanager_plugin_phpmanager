@@ -285,7 +285,49 @@ PhpManager::create()
 ```
 
 
+What about the Config object?
+--------------------------------
 
+I almost forgot. The Config object represents the CONFIG array for the current php script being executed.
+It only contains public properties and is automatically fed by the phpManager plugin, but you need to configure it first.
+  
+To configure the Config class, just open the file and set the names of your properties as public properties of the 
+object.
+
+For instance, if your php script uses a property named 'mySecretPass' and another called 'patchLocation',
+your Config file should look like this:
+
+
+```php
+<?php
+
+
+class Config
+{
+    public $mySecretPass;
+    public $patchLocation;
+    
+}
+
+```
+
+
+And that's it.
+
+
+
+
+
+History revisions
+----------------------
+
+- 1.01 -- 2015-10-15
+
+    Add Tool::replaceTimeStamps method
+    
+- 1.0 -- 2015-10-14
+
+    Initial version
 
 
 

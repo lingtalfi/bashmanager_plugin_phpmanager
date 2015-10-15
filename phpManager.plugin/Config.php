@@ -1,10 +1,6 @@
 <?php
 
 
-/*
- * LingTalfi 2015-10-13
- */
-
 class Config
 {
     public $secure;
