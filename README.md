@@ -321,6 +321,10 @@ And that's it.
 History revisions
 ----------------------
 
+- 1.02 -- 2016-02-27
+
+    Add PhpManager.getHome sugar method
+    
 - 1.01 -- 2015-10-15
 
     Add Tool::replaceTimeStamps method
