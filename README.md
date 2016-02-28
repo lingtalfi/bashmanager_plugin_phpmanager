@@ -321,6 +321,10 @@ And that's it.
 History revisions
 ----------------------
 
+- 1.03 -- 2016-02-27
+
+    Add Tool::color method
+    
 - 1.02 -- 2016-02-27
 
     Add PhpManager.getHome sugar method
